@@ -67,7 +67,7 @@ class LoginController extends CustomController {
           localizedReason: 'Scan your fingerprint  to authenticate',
           options: const AuthenticationOptions(
             stickyAuth: true,
-            biometricOnly: true,
+            // biometricOnly: true,
             useErrorDialogs: true,
           ),
         );
