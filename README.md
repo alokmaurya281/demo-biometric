@@ -18,6 +18,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 Packages used  
-- # GetX For state management
-- # local_auth for Biometric Authentication
+- ### GetX For state management
+- ### local_auth for Biometric Authentication
 
