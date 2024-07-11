@@ -80,7 +80,7 @@ class LoginController extends CustomController {
         }
       } else {
         isAuthenticated.value = false;
-        log('Not Supported');
+        log('Biometric Authentication Not Supported');
       }
     } on PlatformException catch (e) {
       log(e.toString());
